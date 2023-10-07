@@ -1,0 +1,23 @@
+.cards a {
+    display: block;
+    text-decoration: none;
+    color: black;
+    border: 2px solid #848484;
+    padding: 10px;
+}
+
+.cards li {
+    list-style-type: none;
+    float: left ;
+    margin-right: 20px;
+    padding: 0px;
+}
+
+.cards a:hover {
+    background-color: #f2f2f2 ;
+    box-shadow:2px 2px 4px rgb(210, 206, 206);
+}
+
+.cards img {
+    width: 200px;
+}
