@@ -1,0 +1,33 @@
+body{
+    display: flex;
+    min-height: 100vh;
+    flex-direction: row;
+    margin: 0;
+}
+
+.col-1{
+    background: antiquewhite;
+    flex: 1;
+
+}
+
+.col-2{
+    background: burlywood;
+    flex: 5;
+}
+
+article{
+    min-height: 70vh;
+}
+
+header{
+    min-height: 20vh;
+}
+
+aside{
+    min-height: 30vh;
+}
+
+footer{
+    min-height: 10vh;
+}
